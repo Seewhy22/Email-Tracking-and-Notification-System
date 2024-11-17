@@ -1,7 +1,7 @@
 # Email Tracking and Notification System
-Made by Youssef EL MANSOURI
+Made by Karim BAJEDDI
 
-![Logo](https://elmansouri-port.github.io/assets/project-2.jpeg)
+
 ## Overview
 
 This project consists of two Python scripts: `sender.py` and `server_track.py`. The `sender.py` script sends emails to a list of recipients and logs the status of each email sent. The `server_track.py` script is a Flask web server that serves image files and tracks when recipients open the emails, sending a notification when an email is opened.
