@@ -1,4 +1,4 @@
-__author__      = "Youssef EL MANSOURI"
+__author__      = "Karim BAJEDDI"
 __copyright__   = "NC"
 
 import json
@@ -9,7 +9,7 @@ from random import randint
 f = open('mail.json')
 Mail = json.load(f)
 
-mail = Mailer(email='youssefx8383@gmail.com',
+mail = Mailer(email='karimbajeddi22@gmail.com',
               password='application pass')
 
 def send_aplication():
@@ -20,8 +20,8 @@ def send_aplication():
     m = Mail['emails'][start]
     mail.send(receiver=f'{m}',  
               no_reply='noreplay@example.com',
-              subject='APLICATION FOR AN INTERNSHIP ON MARKETING DATA MANIPULATION AND FINANCE.(YOUSSEF EL MANSOURI)',
-              message=f"""<span> your html here <strong> Youssef EL MANSOURI </strong></span>""")
+              subject='APLICATION FOR AN INTERNSHIP ON MARKETING DATA MANIPULATION AND FINANCE.(Karim BAJEDDI)',
+              message=f"""<span> your html here <strong> Karim BAJEDDI </strong></span>""")
 
     status = mail.status
     log = open('send_log.txt')
