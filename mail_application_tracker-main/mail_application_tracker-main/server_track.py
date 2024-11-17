@@ -1,4 +1,4 @@
-__author__      = "Youssef EL MANSOURI"
+__author__      = "Karim BAJEDDI"
 __copyright__   = "NC"
 
 from flask import Flask, send_file, request
